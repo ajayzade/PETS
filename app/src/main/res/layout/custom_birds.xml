@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_bird"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/text_bird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="231dp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+</RelativeLayout>
